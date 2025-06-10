@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musician</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Tools/Icons/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./main/flexboxgrid.css">
+     <link rel="stylesheet" href="./home/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+</head>
+<body id="home-body">
+    
+    <header>
+        <nav>
+            <div class="nav-right">
+
+                <div class="list_icon" id="list_icon">
+                <i class="fa-solid fa-list" id="list_icon_true"></i>
+                <i class="fa-solid fa-xmark" id="list_icon_false"></i>
+                </div>
+
+                <div class="container_list_icon" id="container_list_icon">
+                    <a href="./acount/acount.html" target="_blank" class="acount" id="acount"><i class="fa-regular fa-user"></i></a>
+
+                    <a href="" target="_blank" class="house" id="house"><i class="fa-solid fa-house"></i></a>
+
+                    <a href="./shoppingbox/shoppingbox.html" class="shopping_card" id="shopping_card" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                </div>
+                    <input type="search" id="search-ipt" class="search-ipt" placeholder="جستجو">
+            </div>
+
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <a href="./login/login.html" target="_blank"><i class="fa-solid fa-user" id="login-btn"></i></a>
+                    <a href="./login/login.html" class="login-btn-text" id="login-btn-text" target="_blank"><p id="login_prompt">ثبت  نام/ ورود</p></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ================================= slider ================================= -->
+
+
+        <section class="slider">
+            <div class="slids">
+                <div class="item" id="slide1">
+                    <img src="./Tools/Imgs/1.jpg" >
+                    <span>آهنگ هارو زنده تر از اونچه که هستن گوش بده</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="./Tools/Imgs/2.jpg">
+                    <span>کیفیت صدا هایی که همیشه دنبالش بودی اینجاست</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="./Tools/Imgs/3.jpg">
+                    <span >رویاهاتو با صدای بلند گوش بده</span>
+                </div>
+                <div class="item" id="slide4">
+                    <img src="./Tools/Imgs/4.jpg">
+                    <span style="color: black;">وارد دنیای موسیقی شو</span>
+                </div>
+                <div class="item" id="slide5">
+                    <img src="./Tools/Imgs/5.jpg">
+                    <span style="color: black;">آرزوها تو زندگی کن</span>
+                </div>
+                <div class="item" id="slide6">
+                    <img src="./Tools/Imgs/6.jpg">
+                    <span >زندگی در نوت های موسیقی </span>
+                </div>
+                <div class="item" id="slide7">
+                    <img src="./Tools/Imgs/7.jpg">
+                    <span >بزار موسیقی روحت رو لمس کنه</span>
+                </div>
+            </div>
+
+            <div class="container-buttons">
+                <div class="buttons">
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                    <i id="icon" class="fa-solid fa-circle"></i>
+                </div>
+            </div>
+            
+        </section>
+    </header>
+
+    <div class="page_up_div"><a href="#" id="page_up" class="page_up"><i class="fa-solid fa-up-long" id="page_up_icon"></i></a></div>
+    
+    <!-- ================================= offer items ================================= -->
+    
+    <main>
+
+        <section class="home-page-product-section">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                    <div class="card-sec">
+                        <div class="img">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <img src="./Tools/Imgs/p1.webp" >
+                            
+                    </div>
+                    <div class="title">
+                        هدست بیسیم هایلو مدل S100
+                    </div>
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">900 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="exetend-btn">
+                            <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                            <div class="exetend-btn">
+                                    <a href="" id="b-icon-text">
+                                        <p id="text_shop_card" class="text_shop_card">خرید</p>
+                                        <i class="fas fa-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                    <div class="card-sec">
+                        <div class="img">
+                            <img src="./Tools/Imgs/p2.jpg" >
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="title">
+                        هدست تسکو مدل TH 5304
+                    </div>
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">630 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="exetend-btn">
+                                <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                            <div class="exetend-btn">
+                                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                    <div class="card-sec">
+                        <div class="img">
+                            <img src="./Tools/Imgs/p3.jfif" >
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="title">
+                        هدست گیمینگ بازی اونیکوما
+                    </div>
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">500 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="exetend-btn">
+                            <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                            <div class="exetend-btn">
+                                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="shoping-card">
+                    <div class="card-sec">
+                        <div class="img">
+                            <img src="./Tools/Imgs/p4.jpg" >
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="title">
+                        هدست کامپیوتر تسکو TH 5124
+                    </div>
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800 هزار تومان</span>
+                        </div>
+                        <div class="left">
+                            <div class="exetend-btn">
+                            <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+
+                            <div class="exetend-btn">
+                                <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <br>
+
+        <!-- ================================= supper offer timer ================================= -->
+
+        <section class="supper-offer-section" style="direction: rtl;">
+            <div class="section-two-container">
+                <div class="supper-offer" style="direction: rtl;">
+                    <div class="img">
+                        <img src="./Tools/Imgs/VH500.jpg" >
+                    </div>
+                    <div class="price-offer">
+                        <span class="price">1میلیون تومان</span>
+                        <span class="offer">50 % تخفیف</span>
+                    </div>
+                    <div class="headset-name">
+                        <span>هدست ایسوس مدل VH500</span>
+                    </div>
+                    <div class="timer">
+                        <div class="number-timer">
+                            <span id="seconds"></span>
+                            <span>:</span>
+                            <span id="minutes"></span>
+                            <span>:</span>
+                            <span id="hour"></span>
+                        </div>
+                    </div>
+                    <div class="text-timer" style="direction: rtl;">
+                        <span id="span-timer">زمان باقی مانده تا پایان تخفیف</span>
+                    </div>
+                    <div class="header">
+                        <span>پیشنهاد شگفت انگیز</span>
+                    </div>
+                </div>
+        
+                <div class="banner">
+                    <img src="./Tools/Imgs/1719225004-3.webp" >
+                </div>
+            </div>
+        </section>
+        
+                <!-- =================================  package offer ================================= -->
+        
+        <section class="advertising" id="advertising">
+            <div class="container" id="container">
+
+                <div class="package" id="package-one">
+                    <div class="container" id="container">
+                        <div class="img">
+                            <img src="./Tools/Imgs/package-one.png" >
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="package" id="package-two">
+                    <div class="container" id="container">
+                        <div class="img">
+                            <img src="./Tools/Imgs/package-two.png" >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package" id="package-three">
+                    <div class="container" id="container">
+                        <div class="img">
+                            <img src="./Tools/Imgs/package-three.png" >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package" id="package-four">
+                    <div class="container" id="container">
+                        <div class="img">
+                            <img src="./Tools/Imgs/package-four.png" >
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================================= home items list ================================= -->
+
+        <section class="list-items-section">
+
+            <div class="container">
+                <div class="div-list-home">
+
+                    <div class="list-one">
+                        <div class="img-one">
+                            <img src="./Tools/Imgs/list-img-1.webp" >
+                            <span>عمومی</span>
+                        </div>
+                    </div>
+
+                    <div class="list-two">
+                        <div class="img-two">
+                            <img src="./Tools/Imgs/list-img-2.jpg" >
+                            <span>حرفه ای</span>
+                        </div>
+                    </div>
+
+                    <div class="list-three">
+                        <div class="img-three">
+                            <img src="./Tools/Imgs/list-img-3.jpg" >
+                            <span>مهندسی</span>
+                        </div>
+                    </div>
+
+                    <div class="list-four">
+                        <div class="img-four">
+                            <img src="./Tools/Imgs/list-img-4.jpg" >
+                            <span>گیمینگ</span>
+                        </div>
+                    </div>
+
+                    <div class="list-five">
+                        <div class="img-five">
+                            <img src="./Tools/Imgs/list-img-5.jpg" >
+                            <span>گیمینگ</span>
+                        </div>
+                    </div>
+
+                    <div class="list-sixe">
+                        <div class="img-sixe">
+                            <img src="./Tools/Imgs/list-img-6.webp" >
+                            <span>روزانه</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ================================= first list demo ================================= -->
+
+        <section class="home-section-demo">
+            <p>کالا های پرفروش</p>
+            <div class="container" id="container">
+                <div class="owl-carousel owl-theme" id="owl_carousel">
+
+                <div class="item_one_demo" id="item_one_demo">
+                    <div class="img"><img src="./Tools/Imgs/item_1.jpg" ></div>
+                    <br>
+                    <div class="name" id="name">W30 هدست بی سیم مدل</div>
+                <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 1900 میلیون تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item_two_demo" id="item_two_demo">
+                <div class="img"><img src="./Tools/Imgs/item_2.webp" ></div>
+                    <br>
+                    <div class="name" id="name">N580 هدست بلوتوثی مدل</div>
+                <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 870 هزار تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item_three_demo" id="item_three_demo">
+                <div class="img"><img src="./Tools/Imgs/item_3.jpg" ></div>
+                    <br>
+                    <div class="name" id="name">AM30 هدست بی سیم مدل</div>
+                    <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 650 هزار تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item_four_demo" id="item_four_demo">
+                <div class="img"><img src="./Tools/Imgs/item_4.jfif" ></div>
+                    <br>
+                    <div class="name" id="name">SU00 هدست بلوتوثی مدل</div>
+                    <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 2600 میلیون تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item_five_demo" id="item_five_demo">
+                <div class="img"><img src="./Tools/Imgs/item_6.webp" ></div>
+                    <br>
+                    <div class="name" id="name"> JK2 هدست بی سیم مدل</div>
+                    <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 790 هزار تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item_sixe_demo" id="item_sixe_demo">
+                <div class="img"><img src="./Tools/Imgs/item_7.jpg" ></div>
+                    <br>
+                    <div class="name" id="name">JF62 هدست بلوتوثی مدل</div>
+                    <div class="Specifications" id="Specifications">
+                    <div class="price" id="price">قیمت : 899 هزار تومان</div>
+                    <div class="buttons" id="buttons">
+                        <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+            </div>
+        </section>      
+        
+        <!-- ================================= first Handsfree List ================================= -->
+
+        <section class="home_section_handsfree_list">
+            <div class="container" id="container">
+                <p>هندزفری ها</p>
+                <div class="items_list_one" id="items_list_one">
+                    <div class="item_one" id="item_one">
+                        <img src="./Tools/Imgs/handsfree_1.webp" >
+                    </div>
+                    <div class="item_two" id="item_two">
+                        <img src="./Tools/Imgs/handsfree_2.png" >
+                    </div>
+                    <div class="item_three" id="item_three">
+                        <img src="./Tools/Imgs/handsfree_3.png" >
+                    </div>
+                    <div class="item_four" id="item_four">
+                        <img src="./Tools/Imgs/handsfree_4.png" >
+                    </div>
+                    <div class="item_five" id="item_five">
+                        <img src="./Tools/Imgs/handsfree_5.jfif" >
+                    </div>
+                    <div class="item_six" id="item_six">
+                        <img src="./Tools/Imgs/handsfree_6.png" >
+                    </div>
+                    <div class="item_seven" id="item_seven">
+                        <img src="./Tools/Imgs/handsfree_7.webp" >
+                    </div>
+                    <div class="item_eight" id="item_eight">
+                        <img src="./Tools/Imgs/handsfree_8.jpg" >
+                    </div>
+                    <div class="item_nine" id="item_nine">
+                        <img src="./Tools/Imgs/handsfree_9.jpg" >
+                    </div>
+                </div>
+                
+                <div class="items_list_two" id="items_list_two">
+                    <div class="item_one" id="item_one">
+                        <img src="./Tools/Imgs/handsfree_10.jfif" >
+                    </div>
+                    <div class="item_two" id="item_two">
+                        <img src="./Tools/Imgs/handsfree_11.jfif" >
+                    </div>
+                    <div class="item_three" id="item_three">
+                        <img src="./Tools/Imgs/handsfree_12.jfif" >
+                    </div>
+                    <div class="item_four" id="item_four">
+                        <img src="./Tools/Imgs/handsfree_13.jfif" >
+                    </div>
+                    <div class="item_five" id="item_five">
+                        <img src="./Tools/Imgs/handsfree_14.jfif" >
+                    </div>
+                    <div class="item_six" id="item_six">
+                        <img src="./Tools/Imgs/handsfree_15.jfif" >
+                    </div>
+                    <div class="item_seven" id="item_seven">
+                        <img src="./Tools/Imgs/handsfree_16.jfif" >
+                    </div>
+                    <div class="item_eight" id="item_eight">
+                        <img src="./Tools/Imgs/handsfree_17.jfif" >
+                    </div>
+                    <div class="item_nine" id="item_nine">
+                        <img src="./Tools/Imgs/handsfree_18.jfif" >
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- =================================  footer ================================= -->
+
+    <footer>
+        <section class="footer_section" id="footer_section">
+            <div class="container">
+
+                <div class="conection">
+                    <p>تماس با پشتیبانی _ 09939160928</p>
+                    <p>sobhanjafarii87@gmail.com_ارتباط با ما</p>
+                </div>
+
+                <div class="table_container">
+                    <table>
+                        <tr>
+                            <th>هدست های بلوتوثی</th>
+                            <th class="th-none">هدست های سیمی</th>
+                            <th>هدست های اقتصادی</th>
+                            <th>هدست های گیمینگ</th>
+                            <th class="th-none">هدست های پرچمدار</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>ایسوس</td>
+                            <td class="td-none">کیوسی وای</td>
+                            <td>ایران یاسا</td>
+                            <td>اونیکوما</td>
+                            <td class="td-none">اپل</td>
+                        </tr>
+
+                        <tr>
+                            <td>رد راگن</td>
+                            <td class="td-none">رپو</td>
+                            <td>تسکو</td>
+                            <td>ریزر</td>
+                            <td class="td-none">سامسونگ</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
+    </footer>
+    
+
+     <script src="./home/node_modules/jquery/dist/jquery.min.js"></script>
+     <script src="./home/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+     <script src="./script.js"></script>
+     <script src="./shoppingbox/shoppingbox .js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+
+</body>
+</html>

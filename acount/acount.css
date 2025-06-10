@@ -1,0 +1,186 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Tools/Imgs/download\ \(10\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: #00576d;
+    font-weight: bold;
+}
+
+/* ================= login ================= */
+
+.container{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.593);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container form{
+    grid-column: 8/-1;
+    margin: 10px;
+    margin-left: 0px;
+    background-color: rgba(255, 255, 255, 0.511);
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid white;
+    border-left: none;
+}
+
+h1{
+    margin: 5px;
+    letter-spacing: 2px;
+    font-size: 3em;
+    color: crimson;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid crimson;
+    border-radius: 30px;
+}
+
+.div-ipt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.div-ipt input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px outset crimson;
+}
+
+.div-ipt i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #1289A7;
+    cursor: pointer;
+}
+
+.remmaber-forget{
+    margin: 5px 0px;
+}
+
+.btn{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.btn button{
+    width: 100%;
+    border: none;
+    background-color: rgb(220, 20, 60);
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.btn button:hover{
+    background-color: #1289A7;
+    color: black;
+}
+
+.register-link{
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* ================= big img ================= */
+
+.container .big-img{
+    grid-column: 1/8;
+    margin: 10px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.container .big-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 3px solid white;
+    border-right: none;
+}
+
+/* ================= media Query ================= */
+
+@media screen and (max-width : 770px) {
+
+    .container form{
+        grid-column: 7/-1;
+    }
+
+    .container .big-img{
+        grid-column: 1/7;
+    }
+}
+
+@media screen and (max-width : 620px) {
+
+    .container{
+        grid-template-rows: 200px , 1fr;
+    }
+
+    .container form{
+        grid-column: 1/-1;
+        grid-row: 2/2;
+        border-radius: 10px;
+        margin: 10px;
+        margin-top: -5px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border: 3px solid white;
+        border-top: none;
+    }
+    
+    .container .big-img{
+        grid-column: 1/-1;
+        grid-row: 1/1;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .container .big-img img{
+        height: 200px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: 3px solid white;
+        border-bottom: none;
+    }
+}
