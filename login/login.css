@@ -11,7 +11,7 @@ body{
     padding: 10px;
     margin: 10px;
     width: 350px;
-    background-color: rgba(255, 255, 255, 0.236);
+    background-color: rgba(255, 255, 255, 0.493);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -35,7 +35,7 @@ form{
     padding: 10px;
     color: white;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.423);
+    background-color: rgba(0, 0, 0, 0.553);
 }
 
 input{
@@ -44,7 +44,11 @@ input{
     margin-top: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #caf;
+    background-color: rgba(255, 255, 255, 0.782);
+}
+
+input::placeholder{
+    color: white;
 }
 
 button{
