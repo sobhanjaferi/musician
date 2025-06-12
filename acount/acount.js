@@ -7,6 +7,7 @@ let passwordType = document.getElementById("ipt-password");
 let form = document.querySelector("form");
 let containerForm = document.querySelector(".container");
 let body = document.querySelector('body');
+let btn = document.querySelector("button");
 
 onlock.style.display = "none";
 
@@ -20,3 +21,11 @@ lock.addEventListener("click",()=>{
         passwordType.type = "password";
     })
 })
+
+// ==================== button-event ====================
+
+btn.addEventListener("click",()=>{
+    setTimeout(()=>{
+        location.href = "../index.html"
+    },3000);
+});
