@@ -732,7 +732,8 @@ header nav .nav-left .register-login-btn:hover a p{
     align-items: center;
     width: 300px;
     padding: 10px;
-    margin: 10px;
+    margin: -10px;
+    margin-bottom: 10px;
 }
 
 .developers .container .first_developer .img img{
@@ -742,8 +743,9 @@ header nav .nav-left .register-login-btn:hover a p{
 }
 
 .developers .container .first_developer .introduction{
-    margin-left: 100px;
-    width: 410px;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 410px;
 }
 
 /* ================================= footer ================================= */
