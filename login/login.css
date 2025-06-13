@@ -2,7 +2,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../Tools/Imgs/download\ \(4\).jpg);
+    background-image: url(../Tools/Imgs/login.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container{
@@ -11,31 +13,35 @@ body{
     padding: 10px;
     margin: 10px;
     width: 350px;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: rgba(255, 255, 255, 0.775);
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
 h2{
-    color: #0f0c2f;
-    margin: 15px;
-    margin-top: 5px;
+    background-color: #007c7a61;
+    color: #0b4948;
+    margin: 2px;
+    margin-bottom: 10px;
     padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 4px solid #30257f;
-    border-top: 4px solid #30257f;
-    border-radius: 25px;
-    font-size: 2em;
+    border-bottom: 3px solid #0b4948;
+    border-radius: 10px;
+    font-size: 1.8em;
 }
 
 form{
     padding: 10px;
-    color: white;
+    border: 2px solid black;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.553);
+    background-color: #00cecb61;
+}
+
+.div-name , .div-number , .div-email{
+    position: relative;
 }
 
 input{
@@ -43,8 +49,9 @@ input{
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.782);
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
 }
 
 input::placeholder{
@@ -53,14 +60,14 @@ input::placeholder{
 
 button{
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.122);
+    background-color: rgba(0, 0, 0, 0.686);
+    color: white;
     border-radius: 10px;
     height: 50px;
     border: none;
-    color: white;
     font-size: 2em;
     letter-spacing: 1px;
-    border: 2px solid white;
+    border: 1px solid white;
     cursor: pointer;
 }
 
@@ -68,4 +75,14 @@ button p{
     padding: 0;
     margin: 0;
     margin-top: -10px;
+}
+
+hr{
+    border-color: black;
+}
+
+i{
+    position: absolute;
+    top: 50px;
+    left: 15px;
 }
