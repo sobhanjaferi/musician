@@ -711,9 +711,8 @@ header nav .nav-left .register-login-btn:hover a p{
 /* ================================= introduction ================================= */
 
 .developers{
-    border-top: 1px solid #444;
+    margin-top: 150px;
     margin-bottom: 100px;
-    padding-top: 100px;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -735,7 +734,7 @@ header nav .nav-left .register-login-btn:hover a p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 250px;
+    max-width: 270px;
     color: white;
     padding-bottom: 5px;
 }
@@ -746,7 +745,8 @@ header nav .nav-left .register-login-btn:hover a p{
 }
 
 .developers .container .first_developer .img img{
-    width: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 100px;
     padding: 4px;
     border: 2px solid white;
@@ -758,6 +758,7 @@ header nav .nav-left .register-login-btn:hover a p{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid white;
+    text-align: center;
 }
 
 /* ================================= footer ================================= */
@@ -836,6 +837,10 @@ footer .footer_section .container .comment textarea{
     text-align: right;
     background-color: #555;
     color: white;
+}
+
+footer .footer_section .container .comment textarea::placeholder{
+    color: #eee;
 }
 
 footer .footer_section .container .comment button{
