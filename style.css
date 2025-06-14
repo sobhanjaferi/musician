@@ -797,21 +797,21 @@ footer .footer_section .container .table_container{
 }
 
 footer .footer_section .container table{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 footer .footer_section .container table tr th{
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: right;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.687);
+    border: 1px solid white;
 }
 
 footer .footer_section .container table tr td{
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-align: right;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.687);
+    border: 1px solid white;
 }
 
 footer .footer_section .container .comment{

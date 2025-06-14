@@ -13,7 +13,7 @@ body{
     padding: 10px;
     margin: 10px;
     width: 350px;
-    background-color: rgba(255, 255, 255, 0.775);
+    background-color: rgba(255, 255, 255, 0.819);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,20 +28,22 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 3px solid #0b4948;
+    border-bottom: 5px solid #0b4948;
     border-radius: 10px;
     font-size: 1.8em;
 }
 
 form{
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid #0b4948;
     border-radius: 10px;
     background-color: #00cecb61;
 }
 
-.div-name , .div-number , .div-email{
+.div-password , .div-number , .div-email{
     position: relative;
+    color: #0b4948;
+    margin-bottom: 15px;
 }
 
 input{
@@ -49,7 +51,7 @@ input{
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #0b4948;
     background-color: rgba(0, 0, 0, 0.363);
     color: white;
 }
@@ -74,7 +76,7 @@ button{
 button p{
     padding: 0;
     margin: 0;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 hr{
@@ -83,6 +85,7 @@ hr{
 
 i{
     position: absolute;
-    top: 50px;
+    top: 52px;
     left: 15px;
+    color: white;
 }

@@ -1,22 +1,18 @@
 // ==================== phone-icon ====================
 
 let phoneIpt = document.getElementById("number");
-let phoneIcon = document.querySelector("i");
-let nameIpt = document.querySelector(".div-name");
+let icons = document.querySelector("i");
+let passwordIpt = document.querySelector("#ipt-password");
 let dateIpt = document.querySelector(".div-date");
 let submit = document.getElementById("btn-account");
 
-phoneIpt.addEventListener("click", function(){
-    phoneIcon.style.color = "rgb(0, 55, 255)";
 
-    nameIpt.addEventListener("click", ()=>{
-        phoneIcon.style.color = "black"
+phoneIpt.addEventListener("click",()=>{
+    icons.style.color = "white"
+    
+    passwordIpt.addEventListener("click",()=>{
+        icons.style.color = "white"
     })
-
-    dateIpt.addEventListener("click", ()=>{
-        phoneIcon.style.color = "black"
-    })
-
 })
 
 // ==================== button-event ====================
@@ -26,5 +22,24 @@ const save = document.getElementById("btn-account");
 save.addEventListener("click",()=>{
     setTimeout(()=>{
         window.location.href = "../index.html";
-    },3000);
+    },2000);
 });
+
+// ==================== lock-onlock ====================
+
+let lock = document.getElementById("lock");
+let onlock = document.getElementById("onlock");
+
+
+onlock.style.display = "none";
+
+lock.addEventListener("click",()=>{
+    lock.style.display = "none";
+    onlock.style.display = "inline";
+    passwordIpt.type = "text";
+    onlock.addEventListener("click",()=>{
+        onlock.style.display = "none";
+        lock.style.display = "inline";
+        passwordIpt.type = "password";
+    })
+})

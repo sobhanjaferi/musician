@@ -12,30 +12,29 @@
 
     <div class="container">
 
-        <h2>درست کردن اکانت</h2>
+        <h2>ساخت پنل کاربری</h2>
 
         <form action="" method="get">
-            <div class="div-name">
-                <label for="ipt-name">لطفا نام خود را وارد کنید:</label>
-                <input type="text" class="ipt-name" name="user_name" id="ipt-name" placeholder="نام و نام خانوادگی" required>
-                <i class="fa-regular fa-user"></i>
+            <div class="div-email">
+                <label for="email">ایمیل خود را وارد کنید :</label>
+                <input type="email" id="email" name="user_email_password" class="ipt-email" placeholder="ایمیل" required>
+                <i class="fa-solid fa-envelope"></i>
             </div>
-            <br>
+            <hr>
+            <div class="div-password">
+                <label for="ipt-password">لطفا رمز خود را وارد کنید :</label>
+                <input type="password" class="ipt-password" name="user_password" id="ipt-password" placeholder="رمز ایمیل" required>
+                <i class="fa-solid fa-eye" id="onlock"></i>
+                <i class="fa-solid fa-eye-slash" id="lock"></i>
+            </div>
             <hr>
             <div class="div-number">
                 <label for="number">تلفن همراه خود را وارد کنید:</label>
                 <input type="number" id="number" name="user_number" class="ipt-number" placeholder="تلفن همراه" required>
             </div>
             <br>
-            <hr>
-            <div class="div-email">
-                <label for="email">ایمیل خود را وارد کنید :</label>
-                <input type="email" id="email" name="user_email_password" class="ipt-email" placeholder="ایمیل" required>
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-            <br>
             <div class="submit" id="submit">
-                <button type="button" class="btn-account" id="btn-account"><p>ورود</p></button>
+                <button type="button" class="btn-account" id="btn-account"><p>ساخت</p></button>
             </div>
         </form>
     </div>
