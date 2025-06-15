@@ -6,7 +6,6 @@ let passwordIpt = document.querySelector("#ipt-password");
 let dateIpt = document.querySelector(".div-date");
 let submit = document.getElementById("btn-account");
 
-
 phoneIpt.addEventListener("click",()=>{
     icons.style.color = "white"
     
@@ -21,7 +20,7 @@ const save = document.getElementById("btn-account");
 
 save.addEventListener("click",()=>{
     setTimeout(()=>{
-        window.location.href = "../index.html";
+        window.location.href = "../user_account/user_account.html";
     },2000);
 });
 
