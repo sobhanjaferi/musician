@@ -7,6 +7,8 @@ let minet = document.querySelector(".minet")
 let second = document.querySelector(".second")
 let mili_second = document.querySelector(".mili_second")
 
+let randomCode = Math.floor(Math.random()*10_000)
+
 let min = 1
 let sec = 60
 let mili = 59
@@ -37,8 +39,18 @@ let timer = setInterval(()=>{
 
 },10)
 
+setTimeout(()=>{
+    alert(`این کد ورود شماست (${randomCode})`)
+},5000)
+
 submitBtn.addEventListener("click",()=>{
-    setTimeout(()=>{
-        location.href = "../index.html"
-    },2000)
+
+
+    if(codeIpt.value == randomCode){
+        setTimeout(()=>{
+            location.href = "../index.html"
+        },2000)
+    }else if(codeIpt.value !== randomCode){
+        codeText.innerHTML = "کد وارد شده درست نیست !"
+    }
 })
