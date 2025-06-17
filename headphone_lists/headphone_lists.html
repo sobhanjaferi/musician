@@ -10,63 +10,267 @@
 </head>
 <body>
 
-    <section>
-        <div class="container">
+    <header>
+        <nav>
+            <div class="nav-right">
 
-            <div class="items">
-                
-                <div class="item">
-                    <div class="img"><img src="../Tools/Imgs/item_1.jpg" alt=""></div>
-                    <div class="texts">
-                        <div class="headset_name">هدست هانیول</div>
-                        <div class="price">تومان 2.189.000</div>
-
-                        <div class="buttons">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
+                <div class="list_icon" id="list_icon">
+                <i class="fa-solid fa-list" id="list_icon_true"></i>
+                <i class="fa-solid fa-xmark" id="list_icon_false"></i>
                 </div>
 
-                <div class="item">
-                    <div class="img"><img src="../Tools/Imgs/item_2.webp" alt=""></div>
-                    <div class="texts">
-                        <div class="headset_name">هدست ایسوس</div>
-                        <div class="price">تومان 1.390.000</div>
-                        <div class="buttons">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
-                </div>
+                <div class="container_list_icon" id="container_list_icon">
+                    <a href="../acount/acount.html" target="_blank" class="acount" id="acount"><i class="fa-regular fa-user"></i></a>
 
-                <div class="item">
-                    <div class="img"><img src="../Tools/Imgs/item_3.jpg" alt=""></div>
-                    <div class="texts">
-                        <div class="headset_name">هدست هوکو</div>
-                        <div class="price">تومان 995.000</div>
-                        <div class="buttons">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
-                </div>
+                    <a href="" target="_blank" class="house" id="house"><i class="fa-solid fa-house"></i></a>
 
-                <div class="item">
-                    <div class="img"><img src="../Tools/Imgs/item_4.jfif" alt=""></div>
-                    <div class="texts">
-                        <div class="headset_name">هدست کیو سی وای</div>
-                        <div class="price">تومان 2.890.000</div>
-                        <div class="buttons">
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                    </div>
+                    <a href="../shoppingbox/shoppingbox.html" class="shopping_card" id="shopping_card" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
                 </div>
+                    <a href="../headphone_lists/headphone_lists.html"><input type="search" id="search-ipt" class="search-ipt" placeholder="جستجو"></a>
             </div>
 
-        </div>
-    </section>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <a href="../login/login.html" target="_blank"><i class="fa-solid fa-user" id="login-btn"></i></a>
+                    <a href="../login/login.html" class="login-btn-text" id="login-btn-text" target="_blank"><p id="login_prompt">ثبت  نام/ ورود</p></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+
+                <div class="items">
+                    
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_1.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هانیول</div>
+                            <div class="price">تومان 2.189.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_2.webp" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست ایسوس</div>
+                            <div class="price">تومان 1.390.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_3.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هوکو</div>
+                            <div class="price">تومان 995.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_4.jfif" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست کیو سی وای</div>
+                            <div class="price">تومان 2.890.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_6.webp" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هانیول</div>
+                            <div class="price">تومان 2.189.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/item_7.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست ایسوس</div>
+                            <div class="price">تومان 1.390.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-1.webp" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هوکو</div>
+                            <div class="price">تومان 995.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-2.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست کیو سی وای</div>
+                            <div class="price">تومان 2.890.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="items">
+                    
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-3.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هانیول</div>
+                            <div class="price">تومان 2.189.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-4.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست ایسوس</div>
+                            <div class="price">تومان 1.390.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-5.jpg" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست هوکو</div>
+                            <div class="price">تومان 995.000</div>
+
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"><img src="../Tools/Imgs/list-img-6.webp" alt=""></div>
+                        <div class="texts">
+                            <div class="headset_name">هدست کیو سی وای</div>
+                            <div class="price">تومان 2.890.000</div>
+                            
+                            <div class="buttons">
+                                <div class="like">
+                                    <i class="fas fa-heart" id="heart_icon"><p class="icon_text">علاقه</p></i>
+                                </div>
+                                <div class="shop">
+                                    <i class="fas fa-shopping-cart"><p class="icon_text">سبد خرید</p></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
     <script src="./headphone_lists.js"></script>
     <script src="../script.js"></script>
