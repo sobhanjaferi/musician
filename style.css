@@ -272,56 +272,46 @@ header nav .nav-left .register-login-btn:hover a p{
 
 .shoping-card .buttons .left .exetend-btn{
     display: flex;
+    justify-content: space-around;
+    width: 100px;
 }
 
 .shoping-card .buttons .left .exetend-btn a i{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    background-color: aqua;
     padding: 10px;
-    width: 45px;
-    height: 45px;
-    margin: 5px;
+    margin-right: 10px;
     color: white;
+    border-radius: 20px;
+    background-color: aqua;
+    transition: 0.2s;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    transition: 0.4s;
 }
 
 .shoping-card .buttons .left .exetend-btn{
     position: relative;
-}
-
-.shoping-card .buttons .left .exetend-btn .b-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 50px;
-    top: 10px;
 }
 
 .shoping-card .buttons .left .exetend-btn a i:hover{
-    width: 70px;
-    background-color: rgb(0, 147, 147);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 75px;
+    background-color: rgb(0, 175, 175);
+    position: relative;
+}
+
+.icon_text{
+    display: none;
+}
+
+.shoping-card .buttons .left .exetend-btn a i:hover .icon_text{
+    display: inline;
 }
 
 .shoping-card .buttons .left .exetend-btn{
     position: relative;
-}
-
-.shoping-card .buttons .left .exetend-btn .text_shop_card{
-    position: absolute;
-    left: 47px;
-    color: white;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    top: -6px;
-    display: none;
 }
 
 .shoping-card .card-sec .img .hot-offer{
