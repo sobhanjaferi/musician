@@ -34,7 +34,7 @@ let timer = setInterval(()=>{
 },1000);
 
 setTimeout(()=>{
-    alert(`این کد ورود شماست (${randomCode})`);
+    // alert(`این کد ورود شماست (${randomCode})`);
 },7000)
 
 submitBtn.addEventListener("click",()=>{
