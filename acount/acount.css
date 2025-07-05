@@ -110,21 +110,7 @@ h1{
 
 .btn button:hover{
     color: black;
-}
-
-@keyframes changeColor{
-    25%{
-        background-color: orangered;
-    }
-    50%{
-        background-color: rgb(60, 255, 0);
-    }
-    75%{
-        background-color: rgb(0, 119, 255);
-    }
-    100%{
-        background-color: rgb(0, 38, 255);
-    }
+    background-color: #1289A7;
 }
 
 .register-link{
